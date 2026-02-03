@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
     }`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="text-2xl font-black tracking-tighter text-[#f5f1e6]">
-          SimpliFlow<span className="text-[#00f3ff]">.</span>
+          ClarityFlow<span className="text-[#00f3ff]">.</span>
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
