@@ -38,15 +38,6 @@ const ContactForm: React.FC = () => {
               />
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-bold text-[#f5f1e6]/40 ml-1">Название компании</label>
-              <input 
-                className="w-full bg-[#0a0a0a] border border-[#f5f1e6]/10 px-6 py-4 rounded-2xl focus:border-[#00f3ff] outline-none"
-                placeholder="SimpliFlow LLC"
-                value={formData.company}
-                onChange={e => setFormData({...formData, company: e.target.value})}
-              />
-            </div>
-            <div className="space-y-2">
               <label className="text-sm font-bold text-[#f5f1e6]/40 ml-1">Email</label>
               <input 
                 required
@@ -55,17 +46,6 @@ const ContactForm: React.FC = () => {
                 placeholder="hello@example.com"
                 value={formData.email}
                 onChange={e => setFormData({...formData, email: e.target.value})}
-              />
-            </div>
-            <div className="space-y-2">
-              <label className="text-sm font-bold text-[#f5f1e6]/40 ml-1">Телефон</label>
-              <input 
-                required
-                type="tel"
-                className="w-full bg-[#0a0a0a] border border-[#f5f1e6]/10 px-6 py-4 rounded-2xl focus:border-[#00f3ff] outline-none"
-                placeholder="+7 (900) 000-00-00"
-                value={formData.phone}
-                onChange={e => setFormData({...formData, phone: e.target.value})}
               />
             </div>
             <div className="md:col-span-2 space-y-2">

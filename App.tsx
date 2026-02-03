@@ -25,7 +25,7 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen selection:bg-[#00f3ff] selection:text-[#0a0a0a]">
+    <div className="min-h-screen selection:bg-[#00f3ff] selection:text-[#0a0a0a]" style={{scrollBehavior: 'smooth'}}>
       <Navbar />
       <main>
         <Hero />

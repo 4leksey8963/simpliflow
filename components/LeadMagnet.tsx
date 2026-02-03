@@ -50,7 +50,7 @@ const LeadMagnet: React.FC = () => {
           ) : (
             <div className="p-8 bg-[#1a1a1a] border border-[#00f3ff] rounded-2xl animate-pulse">
               <h4 className="text-xl font-bold text-[#00f3ff] mb-2">Спасибо, {name}!</h4>
-              <p className="text-[#f5f1e6]/70">Ссылка для скачивания гайда уже отправлена на {email}.</p>
+              <p className="text-[#f5f1e6]/70">в данный момент гайд находится в доработке.</p>
             </div>
           )}
         </div>
